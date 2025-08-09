@@ -61,6 +61,17 @@ Designed with privacy and simplicity in mind, Snap-A-Steg supports secure commun
 
 ### Decode Popup Results
 ![Decode Popup Results](screenshots/decode_popup_decoded.png)
+
+
+### Security Considerations
+
+Please note that Snap-A-Steg only handles encryption and hiding messages within images. How you share the password and encryption key with the recipient is critical for maintaining security. For best practice, share the password and key through separate, secure channels. For example:
+
+- Send the encrypted image via email, and share the password via SMS or phone call.  
+- Use an end-to-end encrypted messaging app to share one of the credentials.  
+- Avoid sending both password and key over the same unsecured channel.
+
+Failing to do so can compromise the confidentiality of your messages.
   
 
 ## License
