@@ -262,8 +262,8 @@ class StegoUI(BoxLayout):
         secret_input = TextInput(
             hint_text="Enter secret message"
             ,multiline=True
-            ,size_hint_y=None
-            ,height=100
+            ,size_hint_y=.3
+            
         )
         bytes_info = Label(
             text="0 / ? bytes used"
@@ -365,7 +365,8 @@ class StegoUI(BoxLayout):
         popup = Popup(
             title="Encode Secret Message"
             ,content=layout
-            ,size_hint=(0.8, 0.8)
+            ,size_hint=(None, None)
+            ,size=(600, 600)
         )
 
         def close_popup(instance):
