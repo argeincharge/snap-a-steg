@@ -1,15 +1,17 @@
 # Snap-A-Steg
 
-Snap-A-Steg is a standalone desktop application for secure steganography messaging using image files. 
-Easily encode and decode secret messages protected by passwords and unique encryption keys. 
-Open source and cross-platform support planned.
+Snap-A-Steg is a standalone desktop application for secure steganography and encrypted messaging using image files. 
+Easily hide and reveal secret messages protected by passwords and unique encryption keys. 
+Designed with privacy and simplicity in mind, Snap-A-Steg supports secure communication through image steganography. Open source and cross-platform support planned.
 
 ## Features
 
-- Embed secret messages into images with password protection  
+- Embed secret messages into images with password protection for private and secure messaging
 - Decode hidden messages with the correct password and key  
 - Overwrite existing messages in images  
-- Real-time password strength feedback  
+- Real-time password strength feedback
+- Byte counter to alert how large of a message you can send
+- Randomly assigned unique encryption keys for enhanced security
 - Simple and intuitive GUI  
 
 ## Installation
@@ -32,6 +34,23 @@ Open source and cross-platform support planned.
 - Open the Encode popup to write and password-protect your secret message
 - Save the encoded image and keep the encryption key safe
 - Use the Decode popup to retrieve messages from encoded images
+
+## Screenshots
+
+### Main Interface
+![Main UI](screenshots/welcome_screen.png)
+
+### Encode Popup
+![Encode Popup](screenshots/encode_popup.png)
+
+### Encode Popup Results
+![Encode Popup Results](screenshots/encoded_popup_encoded.png)
+
+### Decode Popup
+![Decode Popup](screenshots/decode_popup.png)
+
+### Decode Popup Results
+![Decode Popup Results](screenshots/decode_popup_decoded.png)
   
 
 ## License
