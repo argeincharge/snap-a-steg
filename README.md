@@ -3,7 +3,7 @@
 Snap-A-Steg is a standalone desktop application for secure steganography and encrypted messaging using image files. 
 Easily hide and reveal secret messages protected by passwords and unique encryption keys. 
 Designed with privacy and simplicity in mind, Snap-A-Steg supports secure communication through image steganography. Open source and cross-platform support planned.
-
+---
 ## Features
 
 - Embed secret messages into images with password protection for private and secure messaging
@@ -12,7 +12,17 @@ Designed with privacy and simplicity in mind, Snap-A-Steg supports secure commun
 - Real-time password strength feedback
 - Byte counter to alert how large of a message you can send
 - Randomly assigned unique encryption keys for enhanced security
-- Simple and intuitive GUI  
+- Simple and intuitive GUI
+
+
+## Project Structure
+- `snap_a_steg.py`: Main application script with GUI and logic
+- `encode_decode.py`: Handles encryption and decryption functions
+- `ui_helpers.py`: Utility file to handle various UI functions
+- `README.md`: Project overview and instructions
+- `LICENSE`: License details
+
+
 
 ## Installation
 
