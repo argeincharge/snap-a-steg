@@ -293,7 +293,7 @@ class StegoUI(BoxLayout):
 
         # Password requirements checklist
         requirements = {
-            "At least 8 characters": lambda s: len(s) >= 8,
+            "At least 12 characters": lambda s: len(s) >= 12,
             "At least one lowercase letter": lambda s: re.search(r"[a-z]", s),
             "At least one uppercase letter": lambda s: re.search(r"[A-Z]", s),
             "At least one digit": lambda s: re.search(r"\d", s),
