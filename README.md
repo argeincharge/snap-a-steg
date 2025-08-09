@@ -44,7 +44,7 @@ Designed with privacy and simplicity in mind, Snap-A-Steg supports secure commun
 ![Encode Popup](screenshots/encode_popup.png)
 
 ### Encode Popup Results
-![Encode Popup Results](screenshots/encoded_popup_encoded.png)
+![Encode Popup Results](screenshots/encode_popup_encoded.png)
 
 ### Decode Popup
 ![Decode Popup](screenshots/decode_popup.png)
